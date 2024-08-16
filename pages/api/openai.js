@@ -5,7 +5,7 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 
-
+//code for openai
 
 export default async function handler(req, res) {
   if (req.method === 'POST') {
